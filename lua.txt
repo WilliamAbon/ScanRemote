@@ -1,1 +1,0 @@
-local screen = Instance.new("ScreenGui")
