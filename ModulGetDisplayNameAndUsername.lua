@@ -1,6 +1,6 @@
 local ye = {}
 
-function se:ngambilUserName(Http)
+function ye:ngambilUserName(Http)
 	--local stri = Http
 	local gam = game:GetService("UserService")--Pastikan Http ini dalam nya table seperti ModuleScript
 	local se = Http
