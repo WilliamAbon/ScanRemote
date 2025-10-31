@@ -1,4 +1,4 @@
-local se = {}
+local ye = {}
 
 function se:ngambilUserName(Http)
 	--local stri = Http
@@ -18,4 +18,4 @@ function se:ngambilUserName(Http)
 	return t
 end
 
-return se
+return ye
