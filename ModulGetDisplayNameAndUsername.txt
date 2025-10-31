@@ -1,0 +1,7 @@
+local se = {}
+
+function se:GETUSERNAME(Http)
+	return print(Http)
+end
+
+return se
