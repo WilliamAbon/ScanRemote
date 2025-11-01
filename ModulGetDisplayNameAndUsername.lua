@@ -11,7 +11,7 @@ function ye.ngambilUserName(Http)
 			local sd = tonumber(v)
 			table.insert(t, gam:GetUserInfosByUserIdsAsync({sd})[num].Username)
 		elseif type(v) == "number" then
-			table.insert(t, gam:GetUserInfosByUserIdsAsync({sd})[num].Username)
+			table.insert(t, gam:GetUserInfosByUserIdsAsync({v})[num].Username)
 		end
 		num += 1
 	end
