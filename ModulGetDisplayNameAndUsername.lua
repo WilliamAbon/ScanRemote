@@ -7,9 +7,9 @@ function ye.ngambilUsername(Http)
 	for i, v in ipairs(se) do
 		if type(v) == "string" then
 			local sd = tonumber(v)
-			t = gam:GetUserInfosByUserIdsAsync({sd})[1].Username)
+			t = gam:GetUserInfosByUserIdsAsync({sd})[1].Username
 		elseif type(v) == "number" then
-		t = gam:GetUserInfosByUserIdsAsync({v})[1].Username)
+		t = gam:GetUserInfosByUserIdsAsync({v})[1].Username
 		end
 	end
 	return t
@@ -22,9 +22,9 @@ function ye.ngambilDisplayName(Http)
 	for i, v in ipairs(se) do
 		if type(v) == "string" then
 			local sd = tonumber(v)
-			t = gam:GetUserInfosByUserIdsAsync({sd})[1].DisplayName)
+			t = gam:GetUserInfosByUserIdsAsync({sd})[1].DisplayName
 		elseif type(v) == "number" then
-		t = gam:GetUserInfosByUserIdsAsync({v})[1].DisplayName)
+		t = gam:GetUserInfosByUserIdsAsync({v})[1].DisplayName
 		end
 	end
 	return t
