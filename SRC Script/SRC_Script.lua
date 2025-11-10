@@ -276,15 +276,17 @@ local gaguna = {
 	TextLabel_18 = Instance.new("TextLabel"),
 	Mobil_2 = Instance.new("Frame"),
 	ScrollingColor_4 = Instance.new("ScrollingFrame"),
-	CarSpeedVolum = Instance.new("Frame"),
+	UIPadding_16 = Instance.new("UIPadding"),
+	UIListLayout_12 = Instance.new("UIListLayout"),
+	CarFlipButton = Instance.new("Frame"),
 	UICorner_82 = Instance.new("UICorner"),
 	TextLabel_19 = Instance.new("TextLabel"),
-	TextBox_5 = Instance.new("TextBox"),
+	TextButton_8 = Instance.new("TextButton"),
 	UICorner_83 = Instance.new("UICorner"),
-	CarFlipButton = Instance.new("Frame"),
+	CarSpeedVolum = Instance.new("Frame"),
 	UICorner_84 = Instance.new("UICorner"),
 	TextLabel_20 = Instance.new("TextLabel"),
-	TextButton_8 = Instance.new("TextButton"),
+	TextBox_5 = Instance.new("TextBox"),
 	UICorner_85 = Instance.new("UICorner"),
 	UbahMaterialEsOnOff = Instance.new("Frame"),
 	TextButton_9 = Instance.new("TextButton"),
@@ -293,12 +295,10 @@ local gaguna = {
 	ImageLabel_6 = Instance.new("ImageLabel"),
 	UIAspectRatioConstraint_21 = Instance.new("UIAspectRatioConstraint"),
 	UICorner_87 = Instance.new("UICorner"),
-	UIPadding_16 = Instance.new("UIPadding"),
-	UIListLayout_12 = Instance.new("UIListLayout"),
-	UICorner_88 = Instance.new("UICorner"),
-	TextLabel_21 = Instance.new("TextLabel"),
 	UIPadding_17 = Instance.new("UIPadding"),
 	UIListLayout_13 = Instance.new("UIListLayout"),
+	UICorner_88 = Instance.new("UICorner"),
+	TextLabel_21 = Instance.new("TextLabel"),
 	Dunia_2 = Instance.new("Frame"),
 	ScrollingColor_5 = Instance.new("ScrollingFrame"),
 	UIPadding_18 = Instance.new("UIPadding"),
@@ -628,7 +628,7 @@ gaguna.JudulLT2.BorderSizePixel = 0
 gaguna.JudulLT2.Position = UDim2.new(0.00487209624, 0, -0.133250296, 0)
 gaguna.JudulLT2.Size = UDim2.new(0, 400, 0, 20)
 gaguna.JudulLT2.Font = Enum.Font.Roboto
-gaguna.JudulLT2.Text = "Change Color UI LUmber Tycoon 2"
+gaguna.JudulLT2.Text = "Change Color UI Lumber Tycoon 2"
 gaguna.JudulLT2.TextColor3 = Color3.fromRGB(255, 255, 255)
 gaguna.JudulLT2.TextSize = 14.000
 gaguna.JudulLT2.TextWrapped = true
@@ -689,6 +689,7 @@ gaguna.UIPadding_3.Parent = gaguna.Frame_2
 gaguna.UIPadding_3.PaddingBottom = UDim.new(0, 2)
 gaguna.UIPadding_3.PaddingLeft = UDim.new(0, 5)
 gaguna.UIPadding_3.PaddingRight = UDim.new(0, 5)
+gaguna.UIPadding_3.PaddingTop = UDim.new(0, 2)
 
 gaguna.UIListLayout_3.Parent = gaguna.Frame_2
 gaguna.UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
@@ -775,7 +776,7 @@ gaguna.TextLabel_3.BorderSizePixel = 0
 gaguna.TextLabel_3.Position = UDim2.new(0.372000009, 0, 0.5, 0)
 gaguna.TextLabel_3.Size = UDim2.new(0.675047696, 0, 1, 0)
 gaguna.TextLabel_3.Font = Enum.Font.Roboto
-gaguna.TextLabel_3.Text = "Color UI:"
+gaguna.TextLabel_3.Text = "Color Background UI:"
 gaguna.TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 gaguna.TextLabel_3.TextSize = 20.000
 gaguna.TextLabel_3.TextWrapped = true
@@ -2020,6 +2021,7 @@ gaguna.ScrollingColor_3.BorderSizePixel = 0
 gaguna.ScrollingColor_3.Position = UDim2.new(0.5, 0, 0.5, 0)
 gaguna.ScrollingColor_3.Size = UDim2.new(0.970000029, 0, 0.970000029, 0)
 gaguna.ScrollingColor_3.BottomImage = "rbxassetid://17582895164"
+gaguna.ScrollingColor_3.CanvasPosition = Vector2.new(0, 227.320374)
 gaguna.ScrollingColor_3.CanvasSize = UDim2.new(0, 0, 1.79999995, 0)
 gaguna.ScrollingColor_3.MidImage = "rbxassetid://109357405891437"
 gaguna.ScrollingColor_3.ScrollBarThickness = 7
@@ -2251,6 +2253,7 @@ gaguna.UIPadding_12.Parent = gaguna.Frame_3
 gaguna.UIPadding_12.PaddingBottom = UDim.new(0, 2)
 gaguna.UIPadding_12.PaddingLeft = UDim.new(0, 5)
 gaguna.UIPadding_12.PaddingRight = UDim.new(0, 5)
+gaguna.UIPadding_12.PaddingTop = UDim.new(0, 2)
 
 gaguna.UIListLayout_9.Parent = gaguna.Frame_3
 gaguna.UIListLayout_9.SortOrder = Enum.SortOrder.LayoutOrder
@@ -2326,6 +2329,7 @@ gaguna.UIPadding_13.Parent = gaguna.Frame_4
 gaguna.UIPadding_13.PaddingBottom = UDim.new(0, 2)
 gaguna.UIPadding_13.PaddingLeft = UDim.new(0, 5)
 gaguna.UIPadding_13.PaddingRight = UDim.new(0, 5)
+gaguna.UIPadding_13.PaddingTop = UDim.new(0, 2)
 
 gaguna.UIListLayout_10.Parent = gaguna.Frame_4
 gaguna.UIListLayout_10.SortOrder = Enum.SortOrder.LayoutOrder
@@ -2491,6 +2495,7 @@ gaguna.UIPadding_15.Parent = gaguna.Frame_5
 gaguna.UIPadding_15.PaddingBottom = UDim.new(0, 2)
 gaguna.UIPadding_15.PaddingLeft = UDim.new(0, 5)
 gaguna.UIPadding_15.PaddingRight = UDim.new(0, 5)
+gaguna.UIPadding_15.PaddingTop = UDim.new(0, 2)
 
 gaguna.UIListLayout_11.Parent = gaguna.Frame_5
 gaguna.UIListLayout_11.SortOrder = Enum.SortOrder.LayoutOrder
@@ -2538,6 +2543,56 @@ gaguna.ScrollingColor_4.MidImage = "rbxassetid://109357405891437"
 gaguna.ScrollingColor_4.ScrollBarThickness = 7
 gaguna.ScrollingColor_4.TopImage = "rbxassetid://17582902069"
 
+gaguna.UIPadding_16.Parent = gaguna.ScrollingColor_4
+gaguna.UIPadding_16.PaddingTop = UDim.new(0, 3)
+
+gaguna.UIListLayout_12.Parent = gaguna.ScrollingColor_4
+gaguna.UIListLayout_12.SortOrder = Enum.SortOrder.LayoutOrder
+gaguna.UIListLayout_12.Padding = UDim.new(0, 5)
+
+gaguna.CarFlipButton.Name = "CarFlipButton"
+gaguna.CarFlipButton.Parent = gaguna.ScrollingColor_4
+gaguna.CarFlipButton.AnchorPoint = Vector2.new(0, 0.5)
+gaguna.CarFlipButton.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+gaguna.CarFlipButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+gaguna.CarFlipButton.BorderSizePixel = 0
+gaguna.CarFlipButton.Position = UDim2.new(-0.0166739319, 0, 0.079950124, 0)
+gaguna.CarFlipButton.Size = UDim2.new(0, 400, 0, 40)
+gaguna.CarFlipButton.Visible = false
+
+gaguna.UICorner_82.Parent = gaguna.CarFlipButton
+
+gaguna.TextLabel_19.Parent = gaguna.CarFlipButton
+gaguna.TextLabel_19.AnchorPoint = Vector2.new(0.5, 0.5)
+gaguna.TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+gaguna.TextLabel_19.BackgroundTransparency = 1.000
+gaguna.TextLabel_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
+gaguna.TextLabel_19.BorderSizePixel = 0
+gaguna.TextLabel_19.Position = UDim2.new(0.371999979, 0, 0.5, 0)
+gaguna.TextLabel_19.Size = UDim2.new(0.675047636, 0, 1, 0)
+gaguna.TextLabel_19.Font = Enum.Font.RobotoCondensed
+gaguna.TextLabel_19.Text = "Flip The Car"
+gaguna.TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+gaguna.TextLabel_19.TextSize = 20.000
+gaguna.TextLabel_19.TextWrapped = true
+gaguna.TextLabel_19.TextXAlignment = Enum.TextXAlignment.Left
+
+gaguna.TextButton_8.Parent = gaguna.CarFlipButton
+gaguna.TextButton_8.AnchorPoint = Vector2.new(0.5, 0.5)
+gaguna.TextButton_8.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+gaguna.TextButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+gaguna.TextButton_8.BorderSizePixel = 0
+gaguna.TextButton_8.Position = UDim2.new(0.846249998, 0, 0.5, 0)
+gaguna.TextButton_8.Size = UDim2.new(0.262499988, 0, 0.699999988, 0)
+gaguna.TextButton_8.Font = Enum.Font.RobotoMono
+gaguna.TextButton_8.Text = "Flip"
+gaguna.TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+gaguna.TextButton_8.TextScaled = true
+gaguna.TextButton_8.TextSize = 14.000
+gaguna.TextButton_8.TextWrapped = true
+
+gaguna.UICorner_83.Parent = gaguna.TextButton_8
+
 gaguna.CarSpeedVolum.Name = "CarSpeedVolum"
 gaguna.CarSpeedVolum.Parent = gaguna.ScrollingColor_4
 gaguna.CarSpeedVolum.AnchorPoint = Vector2.new(0, 0.5)
@@ -2547,22 +2602,22 @@ gaguna.CarSpeedVolum.BorderSizePixel = 0
 gaguna.CarSpeedVolum.Position = UDim2.new(-0.0166739319, 0, 0.079950124, 0)
 gaguna.CarSpeedVolum.Size = UDim2.new(0, 400, 0, 40)
 
-gaguna.UICorner_82.Parent = gaguna.CarSpeedVolum
+gaguna.UICorner_84.Parent = gaguna.CarSpeedVolum
 
-gaguna.TextLabel_19.Parent = gaguna.CarSpeedVolum
-gaguna.TextLabel_19.AnchorPoint = Vector2.new(0.5, 0.5)
-gaguna.TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-gaguna.TextLabel_19.BackgroundTransparency = 1.000
-gaguna.TextLabel_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
-gaguna.TextLabel_19.BorderSizePixel = 0
-gaguna.TextLabel_19.Position = UDim2.new(0.371999979, 0, 0.5, 0)
-gaguna.TextLabel_19.Size = UDim2.new(0.675047636, 0, 1, 0)
-gaguna.TextLabel_19.Font = Enum.Font.RobotoCondensed
-gaguna.TextLabel_19.Text = "Car Speed"
-gaguna.TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
-gaguna.TextLabel_19.TextSize = 20.000
-gaguna.TextLabel_19.TextWrapped = true
-gaguna.TextLabel_19.TextXAlignment = Enum.TextXAlignment.Left
+gaguna.TextLabel_20.Parent = gaguna.CarSpeedVolum
+gaguna.TextLabel_20.AnchorPoint = Vector2.new(0.5, 0.5)
+gaguna.TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+gaguna.TextLabel_20.BackgroundTransparency = 1.000
+gaguna.TextLabel_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
+gaguna.TextLabel_20.BorderSizePixel = 0
+gaguna.TextLabel_20.Position = UDim2.new(0.371999979, 0, 0.5, 0)
+gaguna.TextLabel_20.Size = UDim2.new(0.675047636, 0, 1, 0)
+gaguna.TextLabel_20.Font = Enum.Font.RobotoCondensed
+gaguna.TextLabel_20.Text = "Car Speed"
+gaguna.TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+gaguna.TextLabel_20.TextSize = 20.000
+gaguna.TextLabel_20.TextWrapped = true
+gaguna.TextLabel_20.TextXAlignment = Enum.TextXAlignment.Left
 
 gaguna.TextBox_5.Parent = gaguna.CarSpeedVolum
 gaguna.TextBox_5.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -2580,50 +2635,7 @@ gaguna.TextBox_5.TextScaled = true
 gaguna.TextBox_5.TextSize = 14.000
 gaguna.TextBox_5.TextWrapped = true
 
-gaguna.UICorner_83.Parent = gaguna.TextBox_5
-
-gaguna.CarFlipButton.Name = "CarFlipButton"
-gaguna.CarFlipButton.Parent = gaguna.ScrollingColor_4
-gaguna.CarFlipButton.AnchorPoint = Vector2.new(0, 0.5)
-gaguna.CarFlipButton.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-gaguna.CarFlipButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-gaguna.CarFlipButton.BorderSizePixel = 0
-gaguna.CarFlipButton.Position = UDim2.new(-0.0166739319, 0, 0.079950124, 0)
-gaguna.CarFlipButton.Size = UDim2.new(0, 400, 0, 40)
-gaguna.CarFlipButton.Visible = false
-
-gaguna.UICorner_84.Parent = gaguna.CarFlipButton
-
-gaguna.TextLabel_20.Parent = gaguna.CarFlipButton
-gaguna.TextLabel_20.AnchorPoint = Vector2.new(0.5, 0.5)
-gaguna.TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-gaguna.TextLabel_20.BackgroundTransparency = 1.000
-gaguna.TextLabel_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
-gaguna.TextLabel_20.BorderSizePixel = 0
-gaguna.TextLabel_20.Position = UDim2.new(0.371999979, 0, 0.5, 0)
-gaguna.TextLabel_20.Size = UDim2.new(0.675047636, 0, 1, 0)
-gaguna.TextLabel_20.Font = Enum.Font.RobotoCondensed
-gaguna.TextLabel_20.Text = "Flip The Car"
-gaguna.TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
-gaguna.TextLabel_20.TextSize = 20.000
-gaguna.TextLabel_20.TextWrapped = true
-gaguna.TextLabel_20.TextXAlignment = Enum.TextXAlignment.Left
-
-gaguna.TextButton_8.Parent = gaguna.CarFlipButton
-gaguna.TextButton_8.AnchorPoint = Vector2.new(0.5, 0.5)
-gaguna.TextButton_8.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
-gaguna.TextButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
-gaguna.TextButton_8.BorderSizePixel = 0
-gaguna.TextButton_8.Position = UDim2.new(0.846249998, 0, 0.5, 0)
-gaguna.TextButton_8.Size = UDim2.new(0.262499988, 0, 0.699999988, 0)
-gaguna.TextButton_8.Font = Enum.Font.RobotoMono
-gaguna.TextButton_8.Text = "Flip"
-gaguna.TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
-gaguna.TextButton_8.TextScaled = true
-gaguna.TextButton_8.TextSize = 14.000
-gaguna.TextButton_8.TextWrapped = true
-
-gaguna.UICorner_85.Parent = gaguna.TextButton_8
+gaguna.UICorner_85.Parent = gaguna.TextBox_5
 
 gaguna.UbahMaterialEsOnOff.Name = "UbahMaterialEsOn/Off"
 gaguna.UbahMaterialEsOnOff.Parent = gaguna.ScrollingColor_4
@@ -2674,14 +2686,15 @@ gaguna.UIAspectRatioConstraint_21.Parent = gaguna.ImageLabel_6
 gaguna.UICorner_87.CornerRadius = UDim.new(1, 0)
 gaguna.UICorner_87.Parent = gaguna.ImageLabel_6
 
-gaguna.UIPadding_16.Parent = gaguna.Frame_6
-gaguna.UIPadding_16.PaddingBottom = UDim.new(0, 2)
-gaguna.UIPadding_16.PaddingLeft = UDim.new(0, 5)
-gaguna.UIPadding_16.PaddingRight = UDim.new(0, 5)
+gaguna.UIPadding_17.Parent = gaguna.Frame_6
+gaguna.UIPadding_17.PaddingBottom = UDim.new(0, 2)
+gaguna.UIPadding_17.PaddingLeft = UDim.new(0, 5)
+gaguna.UIPadding_17.PaddingRight = UDim.new(0, 5)
+gaguna.UIPadding_17.PaddingTop = UDim.new(0, 2)
 
-gaguna.UIListLayout_12.Parent = gaguna.Frame_6
-gaguna.UIListLayout_12.SortOrder = Enum.SortOrder.LayoutOrder
-gaguna.UIListLayout_12.VerticalAlignment = Enum.VerticalAlignment.Center
+gaguna.UIListLayout_13.Parent = gaguna.Frame_6
+gaguna.UIListLayout_13.SortOrder = Enum.SortOrder.LayoutOrder
+gaguna.UIListLayout_13.VerticalAlignment = Enum.VerticalAlignment.Center
 
 gaguna.UICorner_88.Parent = gaguna.UbahMaterialEsOnOff
 
@@ -2699,13 +2712,6 @@ gaguna.TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
 gaguna.TextLabel_21.TextSize = 20.000
 gaguna.TextLabel_21.TextWrapped = true
 gaguna.TextLabel_21.TextXAlignment = Enum.TextXAlignment.Left
-
-gaguna.UIPadding_17.Parent = gaguna.ScrollingColor_4
-gaguna.UIPadding_17.PaddingTop = UDim.new(0, 3)
-
-gaguna.UIListLayout_13.Parent = gaguna.ScrollingColor_4
-gaguna.UIListLayout_13.SortOrder = Enum.SortOrder.LayoutOrder
-gaguna.UIListLayout_13.Padding = UDim.new(0, 5)
 
 gaguna.Dunia_2.Name = "Dunia"
 gaguna.Dunia_2.Parent = gaguna.TabFrame
@@ -2809,6 +2815,7 @@ gaguna.UIPadding_19.Parent = gaguna.Frame_7
 gaguna.UIPadding_19.PaddingBottom = UDim.new(0, 2)
 gaguna.UIPadding_19.PaddingLeft = UDim.new(0, 5)
 gaguna.UIPadding_19.PaddingRight = UDim.new(0, 5)
+gaguna.UIPadding_19.PaddingTop = UDim.new(0, 2)
 
 gaguna.UIListLayout_15.Parent = gaguna.Frame_7
 gaguna.UIListLayout_15.SortOrder = Enum.SortOrder.LayoutOrder
@@ -2884,6 +2891,7 @@ gaguna.UIPadding_20.Parent = gaguna.Frame_8
 gaguna.UIPadding_20.PaddingBottom = UDim.new(0, 2)
 gaguna.UIPadding_20.PaddingLeft = UDim.new(0, 5)
 gaguna.UIPadding_20.PaddingRight = UDim.new(0, 5)
+gaguna.UIPadding_20.PaddingTop = UDim.new(0, 2)
 
 gaguna.UIListLayout_16.Parent = gaguna.Frame_8
 gaguna.UIListLayout_16.SortOrder = Enum.SortOrder.LayoutOrder
@@ -2959,6 +2967,7 @@ gaguna.UIPadding_21.Parent = gaguna.Frame_9
 gaguna.UIPadding_21.PaddingBottom = UDim.new(0, 2)
 gaguna.UIPadding_21.PaddingLeft = UDim.new(0, 5)
 gaguna.UIPadding_21.PaddingRight = UDim.new(0, 5)
+gaguna.UIPadding_21.PaddingTop = UDim.new(0, 2)
 
 gaguna.UIListLayout_17.Parent = gaguna.Frame_9
 gaguna.UIListLayout_17.SortOrder = Enum.SortOrder.LayoutOrder
@@ -3034,6 +3043,7 @@ gaguna.UIPadding_22.Parent = gaguna.Frame_10
 gaguna.UIPadding_22.PaddingBottom = UDim.new(0, 2)
 gaguna.UIPadding_22.PaddingLeft = UDim.new(0, 5)
 gaguna.UIPadding_22.PaddingRight = UDim.new(0, 5)
+gaguna.UIPadding_22.PaddingTop = UDim.new(0, 2)
 
 gaguna.UIListLayout_18.Parent = gaguna.Frame_10
 gaguna.UIListLayout_18.SortOrder = Enum.SortOrder.LayoutOrder
@@ -3126,6 +3136,7 @@ gaguna.UIPadding_23.Parent = gaguna.Frame_11
 gaguna.UIPadding_23.PaddingBottom = UDim.new(0, 2)
 gaguna.UIPadding_23.PaddingLeft = UDim.new(0, 5)
 gaguna.UIPadding_23.PaddingRight = UDim.new(0, 5)
+gaguna.UIPadding_23.PaddingTop = UDim.new(0, 2)
 
 gaguna.UIListLayout_19.Parent = gaguna.Frame_11
 gaguna.UIListLayout_19.SortOrder = Enum.SortOrder.LayoutOrder
@@ -3201,6 +3212,7 @@ gaguna.UIPadding_24.Parent = gaguna.Frame_12
 gaguna.UIPadding_24.PaddingBottom = UDim.new(0, 2)
 gaguna.UIPadding_24.PaddingLeft = UDim.new(0, 5)
 gaguna.UIPadding_24.PaddingRight = UDim.new(0, 5)
+gaguna.UIPadding_24.PaddingTop = UDim.new(0, 2)
 
 gaguna.UIListLayout_20.Parent = gaguna.Frame_12
 gaguna.UIListLayout_20.SortOrder = Enum.SortOrder.LayoutOrder
@@ -3222,33 +3234,252 @@ gaguna.TextLabel_27.TextColor3 = Color3.fromRGB(255, 255, 255)
 gaguna.TextLabel_27.TextSize = 20.000
 gaguna.TextLabel_27.TextWrapped = true
 gaguna.TextLabel_27.TextXAlignment = Enum.TextXAlignment.Left
+-----------------------------------------------------------------------------------------------------------------
+-- LocalScript di dalam Frame
+local frame = gaguna.Frame
+local UIS = game:GetService("UserInputService")
 
-local tabInd = {
-	[1] = "Home";
-	[2] = "World";
-	[3] = "Car";
-	[4] = "LocalPlayer";
-	[5] = "Color";
-	[6] = "TeamSRC";
+local dragging = false
+local dragStart = nil
+local startPos = nil
+
+-- fungsi umum buat update posisi
+local function updatePosition(input)
+	if not dragging then return end
+	local delta = input.Position - dragStart
+	frame.Position = UDim2.new(
+		startPos.X.Scale,
+		startPos.X.Offset + delta.X,
+		startPos.Y.Scale,
+		startPos.Y.Offset + delta.Y
+	)
+end
+
+-- kalau mulai klik atau sentuh
+frame.InputBegan:Connect(function(input)
+	-- klik kiri (PC) atau sentuhan pertama (HP)
+	if input.UserInputType == Enum.UserInputType.MouseButton1 
+		or input.UserInputType == Enum.UserInputType.Touch then
+
+		dragging = true
+		dragStart = input.Position
+		startPos = frame.Position
+
+		-- kalau HP, pantau input yang sama
+		local connection
+		connection = input.Changed:Connect(function()
+			if input.UserInputState == Enum.UserInputState.End then
+				dragging = false
+				connection:Disconnect()
+			end
+		end)
+	end
+end)
+
+-- kalau lepas mouse (PC)
+frame.InputEnded:Connect(function(input)
+	if input.UserInputType == Enum.UserInputType.MouseButton1 then
+		dragging = false
+	end
+end)
+
+-- pergerakan mouse atau jari
+UIS.InputChanged:Connect(function(input)
+	if input.UserInputType == Enum.UserInputType.MouseMovement 
+		or input.UserInputType == Enum.UserInputType.Touch then
+		updatePosition(input)
+	end
+end)
+-----------------------------------------------------------------------------------------------------------------
+
+local lokasi = game:GetService("Players").LocalPlayer.PlayerGui["ga guna"].Frame.FrameKiri.ScrollingPilihan.Rumah
+Instance.new("UIStroke", lokasi).Color = Color3.fromRGB(255, 255, 255)
+
+local bahasaApa = "Inggris"
+local sekarangtabdimana = nil
+
+local tabIndToIngs = {
+	["Rumah"] = "Home";
+	["Dunia"] = "World";
+	["Mobil"] = "Car";
+	["Orang"] = "LocalPlayer";
+	["UbahWarna"] = "Color";
+	["Anggota"] = "TeamSRC";
 }
+
+local tabIngsToInd = {
+	["Rumah"] = "Rumah";
+	["Dunia"] = "Dunia";
+	["Mobil"] = "Mobil";
+	["Orang"] = "Orang";
+	["UbahWarna"] = "UbahWarna";
+	["Anggota"] = "Anggota";
+}
+
+function ubahmenjadiINDO()
+	--[TabAnggota]--awal
+	gaguna.Founder.Text = "-_-_-_-_- Pendiri SRC -_-_-_-_-"
+	gaguna.Maker.Text = "-_-_-_-_- Pembuat Script -_-_-_-_-"
+	gaguna.Member.Text = "-_-_-_-_- Member SRC -_-_-_-_-"
+	gaguna.Kirakira.Text = "Sangat Banyak Member SRC Palingan Ada 18"
+	gaguna.TextLabel_5.Text = "Ngapain lu Scrolling terus. padahal ga ada apa-apa, Cuman ada Angin kentut wkwkkw"
+	--[TabAnggota]--akhir
+	
+	--[TabDunia]--awal
+	gaguna.TextLabel_22.Text = "Pagi Terus"
+	gaguna.TextLabel_24.Text = "Hapus KabutNya"
+	gaguna.TextLabel_23.Text = "Hapus Shadownya"
+	gaguna.TextLabel_25.Text = "Malem Terus"
+	gaguna.TextLabel_26.Text = "Berjalan Di Atas Air"
+	gaguna.TextLabel_27.Text = "Hapus Air"
+	gaguna.JudulWater.Text = "Air"
+	gaguna.JudulSettings.Text = "Pengaturan"
+	--[TabDunia]--akhir
+	
+	--[TabMobil]--awal
+	gaguna.TextLabel_19.Text = "Kecepatan Mobil"
+	gaguna.TextLabel_21.Text = "Ban roda gantiin jadi material ice"
+	--[TabMobil]--akhir
+	
+	--[TabRumah]--awal
+	gaguna.TextLabel_10.Text = "Memuat Script Kron Hub "
+	gaguna.TextButton_4.Text = "Memuat"
+	gaguna.TextButton_3.Text = "Memuat"
+	gaguna.TextLabel_11.Text = "Memuat Script Fling"
+	--[TabRumah]--akhir
+	
+	--[TabUbahWarna]--awal
+	gaguna.TextLabel.Text = "Bayangan Terlihat"
+	gaguna.JudulLT2.Text = "Ubah Warna di UI Lt2"
+	gaguna.TextLabel_2.Text = "Transparan Bayangan"
+	gaguna.TextLabel_3.Text = "Warna Background UI:"
+	gaguna.TextLabel_4.Text = "Warna Text:"
+	--[TabUbahWarna]--akhir
+	
+	--[TabOrang]--awal
+	gaguna.JudulPlayer.Text = "Pemain"
+	gaguna.TextLabel_12.Text = "Kecepatan Berjalan"
+	gaguna.TextLabel_13.Text = "Lompat Kekuatan"
+	gaguna.TextLabel_14.Text = "Zoom Out Max"
+	gaguna.JudulChar.Text = "Karakter"
+	gaguna.TextLabel_15.Text = "Tembus"
+	gaguna.TextLabel_16.Text = "Lompatan Tidak Terbatas"
+	gaguna.JudulViewOther.Text = "Lihat Player Lain"
+	gaguna.TextLabel_17.Text = "Target Player:"
+	gaguna.TextLabel_18.Text = "Lihat Player Nya"
+	--[TabOrang]--akhir
+end
+
+function ubahmenjadiINGR()
+	--[TabAnggota]--awal
+	gaguna.Founder.Text = "-_-_-_-_- Founder SRC -_-_-_-_-"
+	gaguna.Maker.Text = "-_-_-_-_- Maker Script -_-_-_-_-"
+	gaguna.Member.Text = "-_-_-_-_- Member SRC -_-_-_-_-"
+	gaguna.Kirakira.Text = "Very Many SRC Members Around 18"
+	gaguna.TextLabel_5.Text = "Why did you scroll all the way through? There's nothing there."
+	--[TabAnggota]--akhir
+	
+	--[TabDunia]--awal
+	gaguna.TextLabel_22.Text = "Always Morning"
+	gaguna.TextLabel_24.Text = "Remove Fog"
+	gaguna.TextLabel_23.Text = "Remove Shadow"
+	gaguna.TextLabel_25.Text = "Always Night"
+	gaguna.TextLabel_26.Text = "Walk On Water"
+	gaguna.TextLabel_27.Text = "Remove Water"
+	gaguna.JudulWater.Text = "Water"
+	gaguna.JudulSettings.Text = "Settings"
+	--[TabDunia]--akhir
+	
+	--[TabMobil]--awal
+	gaguna.TextLabel_19.Text = "Car Speed"
+	gaguna.TextLabel_21.Text = "turn the wheels into ice material"
+	--[TabMobil]--akhir
+	
+	--[TabRumah]--awal
+	gaguna.TextLabel_10.Text = "Load Kron Hub Script"
+	gaguna.TextButton_4.Text = "Load"
+	gaguna.TextButton_3.Text = "Load"
+	gaguna.TextLabel_11.Text = "Load Fling Script"
+	--[TabRumah]--akhir
+	
+	--[TabUbahWarna]--awal
+	gaguna.TextLabel.Text = "Shadow Visible"
+	gaguna.JudulLT2.Text = "Change Color UI Lumber Tycoon 2"
+	gaguna.TextLabel_2.Text = "Transparency Shadow"
+	gaguna.TextLabel_3.Text = "Color Background UI:"
+	gaguna.TextLabel_4.Text = "Color Text:"
+	--[TabUbahWarna]--akhir
+	
+	--[TabOrang]--awal
+	gaguna.JudulPlayer.Text = "Player"
+	gaguna.TextLabel_12.Text = "Walk Speed"
+	gaguna.TextLabel_13.Text = "Jump Power"
+	gaguna.TextLabel_14.Text = "Zoom Out Max"
+	gaguna.JudulChar.Text = "Character"
+	gaguna.TextLabel_15.Text = "NoClip"
+	gaguna.TextLabel_16.Text = "InfJump"
+	gaguna.JudulViewOther.Text = "View Other Player"
+	gaguna.TextLabel_17.Text = "Target Player:"
+	gaguna.TextLabel_18.Text = "View Player"
+	--[TabOrang]--akhir
+end
+
+gaguna.Indonesia.MouseButton1Click:Connect(function()
+	bahasaApa = "Indonesia"
+	gaguna.Bhsapa.Text = bahasaApa
+	if sekarangtabdimana ~= nil then
+		gaguna.Tabmenunju.Text = tabIngsToInd[sekarangtabdimana].."Tab"
+	else
+		gaguna.Tabmenunju.Text = "RumahTab"
+	end
+	ubahmenjadiINDO()
+	print(sekarangtabdimana)
+end)
+
+gaguna.Inggirs.MouseButton1Click:Connect(function()
+	bahasaApa = "Inggris"
+	gaguna.Bhsapa.Text = bahasaApa
+	if sekarangtabdimana ~= nil then
+		gaguna.Tabmenunju.Text = tabIndToIngs[sekarangtabdimana].."Tab"
+	else
+		gaguna.Tabmenunju.Text = "HomeTab"
+	end
+	ubahmenjadiINGR()
+	print(sekarangtabdimana)
+end)
 
 for _,v in pairs(gaguna.ScrollingPilihan:GetChildren()) do
 	if v:IsA("ImageButton") then
-	v.MouseButton1Click:Connect(function()
-		for w, e in pairs(gaguna.TabFrame:GetChildren()) do
-			if e:IsA("Frame") then
-				e.Visible = false
+		v.MouseButton1Click:Connect(function()
+			sekarangtabdimana = v.Name
+			if bahasaApa == "Inggris" then
+				gaguna.Tabmenunju.Text = tabIndToIngs[v.Name].."Tab"
+			elseif bahasaApa == "Indonesia" then
+				gaguna.Tabmenunju.Text = tabIngsToInd[v.Name].."Tab"
 			end
-		end 
-		local str = v.Name
-		for w, e in pairs(gaguna.TabFrame:GetChildren()) do
-			if e:IsA("Frame") then
-				if e.Name == str then
-					e.Visible = true
+			for w, e in pairs(gaguna.ScrollingPilihan:GetChildren()) do
+				if e:IsA("ImageButton") then
+					if e:FindFirstChild("UIStroke") then
+						e.UIStroke:Destroy()
+					end
+				end
+			end 
+			local wr = Instance.new("UIStroke", v)
+			wr.Color = Color3.fromRGB(255, 255, 255)
+			for w, e in pairs(gaguna.TabFrame:GetChildren()) do
+				if e:IsA("Frame") then
+					e.Visible = false
+				end
+			end 
+			local str = v.Name
+			for w, e in pairs(gaguna.TabFrame:GetChildren()) do
+				if e:IsA("Frame") then
+					if e.Name == str then
+						e.Visible = true
+					end
 				end
 			end
-		end
-	end)
+		end)
 	end
 end
 
