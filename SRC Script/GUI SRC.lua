@@ -1288,6 +1288,7 @@ gaguna.UIListLayout_4.Parent = gaguna.FrameFounder
 gaguna.UIListLayout_4.HorizontalAlignment = Enum.HorizontalAlignment.Center
 gaguna.UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
 gaguna.UIListLayout_4.Padding = UDim.new(0, 10)
+gaguna.UIListLayout_4.Wraps = true
 
 gaguna.Kil.Name = "Kil"
 gaguna.Kil.Parent = gaguna.FrameFounder
