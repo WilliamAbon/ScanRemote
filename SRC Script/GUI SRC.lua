@@ -772,7 +772,7 @@ gaguna.InputColorLT2Pilihan.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
 gaguna.InputColorLT2Pilihan.BorderColor3 = Color3.fromRGB(0, 0, 0)
 gaguna.InputColorLT2Pilihan.BorderSizePixel = 0
 gaguna.InputColorLT2Pilihan.Position = UDim2.new(3.63463677e-08, 0, 0.449243814, 0)
-gaguna.InputColorLT2Pilihan.Size = UDim2.new(0, 400, 0, 70)
+gaguna.InputColorLT2Pilihan.Size = UDim2.new(0, 400, 0, 0)
 gaguna.InputColorLT2Pilihan.Visible = false
 
 gaguna.ScrollingFrame.Parent = gaguna.InputColorLT2Pilihan
@@ -1022,7 +1022,7 @@ gaguna.InputColorTextLt2Pilihan.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
 gaguna.InputColorTextLt2Pilihan.BorderColor3 = Color3.fromRGB(0, 0, 0)
 gaguna.InputColorTextLt2Pilihan.BorderSizePixel = 0
 gaguna.InputColorTextLt2Pilihan.Position = UDim2.new(3.63463677e-08, 0, 0.449243814, 0)
-gaguna.InputColorTextLt2Pilihan.Size = UDim2.new(0, 400, 0, 70)
+gaguna.InputColorTextLt2Pilihan.Size = UDim2.new(0, 400, 0, 0)
 gaguna.InputColorTextLt2Pilihan.Visible = false
 
 gaguna.ScrollingFrame_2.Parent = gaguna.InputColorTextLt2Pilihan
