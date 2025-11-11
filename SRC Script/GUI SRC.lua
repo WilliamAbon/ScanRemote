@@ -2392,7 +2392,7 @@ gaguna.ScrollingFrame_5.TopImage = "rbxassetid://17582902069"
 gaguna.UIGridLayout_6.Parent = gaguna.ScrollingFrame_5
 gaguna.UIGridLayout_6.SortOrder = Enum.SortOrder.LayoutOrder
 gaguna.UIGridLayout_6.CellPadding = UDim2.new(0, 0, 0, 2)
-gaguna.UIGridLayout_6.CellSize = UDim2.new(1, 0, 0, 25)
+gaguna.UIGridLayout_6.CellSize = UDim2.new(1, 0, 0, 19)
 
 gaguna.UIPadding_14.Parent = gaguna.ScrollingFrame_5
 gaguna.UIPadding_14.PaddingRight = UDim.new(0, 8)
